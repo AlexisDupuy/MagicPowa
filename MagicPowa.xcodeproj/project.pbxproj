@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8BB0EA9E1AE275E600DD2A1D /* CategoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB0EA9D1AE275E600DD2A1D /* CategoryTableViewController.swift */; };
+		8BB0EAA01AE2760400DD2A1D /* ArticleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB0EA9F1AE2760400DD2A1D /* ArticleTableViewController.swift */; };
+		8BB1BDD71AE02F67001D713D /* ArticleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB1BDD61AE02F67001D713D /* ArticleController.swift */; };
 		8BB74EC21AD2E7560059C13D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB74EC11AD2E7560059C13D /* AppDelegate.swift */; };
 		8BB74EC41AD2E7560059C13D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB74EC31AD2E7560059C13D /* ViewController.swift */; };
 		8BB74EC71AD2E7560059C13D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BB74EC51AD2E7560059C13D /* Main.storyboard */; };
@@ -26,6 +29,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8BB0EA9D1AE275E600DD2A1D /* CategoryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryTableViewController.swift; sourceTree = "<group>"; };
+		8BB0EA9F1AE2760400DD2A1D /* ArticleTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleTableViewController.swift; sourceTree = "<group>"; };
+		8BB1BDD61AE02F67001D713D /* ArticleController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleController.swift; sourceTree = "<group>"; };
 		8BB74EBC1AD2E7560059C13D /* MagicPowa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagicPowa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BB74EC01AD2E7560059C13D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8BB74EC11AD2E7560059C13D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +62,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8BB19B071AE16B6000F222A6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8BB1BDD61AE02F67001D713D /* ArticleController.swift */,
+				8BB0EA9D1AE275E600DD2A1D /* CategoryTableViewController.swift */,
+				8BB0EA9F1AE2760400DD2A1D /* ArticleTableViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		8BB19B081AE16B7E00F222A6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8BB74EC51AD2E7560059C13D /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		8BB19B091AE16B8E00F222A6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 		8BB74EB31AD2E7550059C13D = {
 			isa = PBXGroup;
 			children = (
@@ -79,9 +110,11 @@
 			children = (
 				8BB74EC11AD2E7560059C13D /* AppDelegate.swift */,
 				8BB74EC31AD2E7560059C13D /* ViewController.swift */,
-				8BB74EC51AD2E7560059C13D /* Main.storyboard */,
 				8BB74EC81AD2E7560059C13D /* Images.xcassets */,
 				8BB74ECA1AD2E7560059C13D /* LaunchScreen.xib */,
+				8BB19B091AE16B8E00F222A6 /* Models */,
+				8BB19B081AE16B7E00F222A6 /* View */,
+				8BB19B071AE16B6000F222A6 /* Controllers */,
 				8BB74EBF1AD2E7560059C13D /* Supporting Files */,
 			);
 			path = MagicPowa;
@@ -212,8 +245,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BB0EAA01AE2760400DD2A1D /* ArticleTableViewController.swift in Sources */,
 				8BB74EC41AD2E7560059C13D /* ViewController.swift in Sources */,
+				8BB1BDD71AE02F67001D713D /* ArticleController.swift in Sources */,
 				8BB74EC21AD2E7560059C13D /* AppDelegate.swift in Sources */,
+				8BB0EA9E1AE275E600DD2A1D /* CategoryTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +441,7 @@
 				8BB74EDD1AD2E7560059C13D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8BB74EDE1AD2E7560059C13D /* Build configuration list for PBXNativeTarget "MagicPowaTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +450,7 @@
 				8BB74EE01AD2E7560059C13D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
