@@ -12,6 +12,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="sectionIndexBackgroundColor" red="0.71372549019999998" green="0.88235294119999996" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="categoryCell" textLabel="KVn-Nw-0OR" style="IBUITableViewCellStyleDefault" id="otO-Pv-kx8">
                                 <autoresizingMask key="autoresizingMask"/>
@@ -62,7 +63,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.71372549019999998" green="0.88235294119999996" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstAttribute="centerX" secondItem="gnW-oB-PjX" secondAttribute="centerX" id="7zk-LA-y3G"/>
                             <constraint firstAttribute="centerY" secondItem="gnW-oB-PjX" secondAttribute="centerY" id="Pc7-Fq-l84"/>
@@ -86,6 +87,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="sectionIndexBackgroundColor" red="0.71372549019999998" green="0.88235294119999996" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="articleCell" textLabel="u0h-ch-MBe" style="IBUITableViewCellStyleDefault" id="Evg-cI-NCb">
                                 <autoresizingMask key="autoresizingMask"/>
