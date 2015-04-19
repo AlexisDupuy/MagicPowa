@@ -10,7 +10,7 @@ import UIKit
 
 class CategoryTableViewController: UITableViewController {
     
-    var data: ObjetManager = ObjetManager()
+    var dataManager: ObjetManager = ObjetManager()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -32,14 +32,14 @@ class CategoryTableViewController: UITableViewController {
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete method implementation.
         // Return the number of rows in the section.
-        return data.allCzategories().count
+        return dataManager.allCategories().count
     }
 
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("categoryCell", forIndexPath: indexPath) as UITableViewCell
         
-            let categories: [Objet] = data.allCategories()
+            let categories: [Objet] = dataManager.allCategories()
         
             let category = categories[indexPath.row]
         
@@ -56,7 +56,9 @@ class CategoryTableViewController: UITableViewController {
         // Get the new view controller using [segue destinationViewController].
         // Pass the selected object to the new view controller.
         var nextVC = segue.destinationViewController as ArticleTableViewController
-        
+        nextVC.dataManager = self.dataManager
+        var cell = sender as UITableViewCell
+        nextVC.category = cell.textLabel.text
     }
 
 

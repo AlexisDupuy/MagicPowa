@@ -22,10 +22,19 @@ class ObjetManager {
         }
         return categories
     }
-    func allRules() -> [Objet] {
+    func allArticles() -> [Objet] {
         var articles = [Objet]()
         for Objet in objetArray{
             if (Objet.type == "article"){
+                articles.append(Objet)
+            }
+        }
+        return articles
+    }
+    func categoryArticles(category : String) -> [Objet] {
+        var articles = [Objet]()
+        for Objet in objetArray{
+            if (Objet.category == category){
                 articles.append(Objet)
             }
         }

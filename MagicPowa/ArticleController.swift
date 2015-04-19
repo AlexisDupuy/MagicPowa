@@ -10,7 +10,10 @@ import UIKit
 
 class ArticleController: UIViewController {
 
-    var category: Objet!
+    var dataManager: ObjetManager!
+    
+    var article: String!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
