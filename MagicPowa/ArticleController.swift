@@ -21,9 +21,11 @@ class ArticleController: UIViewController {
         var articleObject = dataManager.unArticle(article)
         // Do any additional setup after loading the view.
         content.text = articleObject.contenu
+        content.textAlignment = .Center
         content.lineBreakMode = NSLineBreakMode.ByWordWrapping
         content.numberOfLines = 0
         title = article
+        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "background.jpg")!)
     }
     
     @IBAction func back(sender: AnyObject) {
