@@ -21,6 +21,7 @@ class ArticleController: UIViewController {
         // Do any additional setup after loading the view.
         content.text = articleObject.contenu
         title = article
+        content.textAlignment = NSTextAlignment.Center
     }
     
     @IBAction func back(sender: AnyObject) {
