@@ -13,17 +13,13 @@ class ArticleController: UIViewController {
     var dataManager: ObjetManager!
     
     var article: String!
-    
-    @IBOutlet weak var content: UILabel!
+    @IBOutlet weak var content: UITextView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         var articleObject = dataManager.unArticle(article)
         // Do any additional setup after loading the view.
         content.text = articleObject.contenu
-        content.textAlignment = .Center
-        content.lineBreakMode = NSLineBreakMode.ByWordWrapping
-        content.numberOfLines = 0
         title = article
     }
     

@@ -56,23 +56,28 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gnW-oB-PjX">
-                                <rect key="frame" x="23" y="289" width="555" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <textView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Equipementsvdsdgfbfg" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="66j-ul-fw5">
+                                <rect key="frame" x="23" y="137" width="555" height="400"/>
+                                <color key="backgroundColor" red="0.0" green="0.47362104668674698" blue="1" alpha="0.0" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" red="0.71372549019999998" green="0.88235294119999996" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
                         <constraints>
-                            <constraint firstAttribute="centerX" secondItem="gnW-oB-PjX" secondAttribute="centerX" id="7zk-LA-y3G"/>
-                            <constraint firstAttribute="centerY" secondItem="gnW-oB-PjX" secondAttribute="centerY" id="Pc7-Fq-l84"/>
-                            <constraint firstAttribute="width" secondItem="gnW-oB-PjX" secondAttribute="width" constant="45" id="jqh-ql-KtD"/>
+                            <constraint firstAttribute="centerX" secondItem="66j-ul-fw5" secondAttribute="centerX" id="O2c-Iv-H9H"/>
+                            <constraint firstAttribute="centerY" secondItem="66j-ul-fw5" secondAttribute="centerY" constant="-37" id="ObD-sO-0RK"/>
+                            <constraint firstItem="Peb-iW-j3x" firstAttribute="top" secondItem="66j-ul-fw5" secondAttribute="bottom" constant="63" id="R3t-cN-tPW"/>
+                            <constraint firstItem="66j-ul-fw5" firstAttribute="top" secondItem="T9L-RJ-GjA" secondAttribute="bottom" constant="73" id="SbC-w7-AZF"/>
+                            <constraint firstItem="66j-ul-fw5" firstAttribute="height" secondItem="lfD-zw-lQA" secondAttribute="height" constant="-200" id="W8e-Uu-39q"/>
+                            <constraint firstItem="66j-ul-fw5" firstAttribute="width" secondItem="lfD-zw-lQA" secondAttribute="width" constant="-45" id="pQt-Fd-cJo"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Title" id="4K6-nr-iLC"/>
                     <connections>
-                        <outlet property="content" destination="gnW-oB-PjX" id="lYQ-Qg-Onq"/>
+                        <outlet property="content" destination="66j-ul-fw5" id="lmx-FK-4kG"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JAL-lv-GGK" userLabel="First Responder" sceneMemberID="firstResponder"/>
