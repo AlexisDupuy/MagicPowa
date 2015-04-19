@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8BAD5ECC1AE44D4C0014B7B9 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8BAD5ECB1AE44D4C0014B7B9 /* background.jpg */; };
 		8BB0EA9E1AE275E600DD2A1D /* CategoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB0EA9D1AE275E600DD2A1D /* CategoryTableViewController.swift */; };
 		8BB0EAA01AE2760400DD2A1D /* ArticleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB0EA9F1AE2760400DD2A1D /* ArticleTableViewController.swift */; };
 		8BB1BDD71AE02F67001D713D /* ArticleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB1BDD61AE02F67001D713D /* ArticleController.swift */; };
@@ -32,7 +31,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8BAD5ECB1AE44D4C0014B7B9 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = background.jpg; path = ../../../Downloads/background.jpg; sourceTree = "<group>"; };
 		8BB0EA9D1AE275E600DD2A1D /* CategoryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryTableViewController.swift; sourceTree = "<group>"; };
 		8BB0EA9F1AE2760400DD2A1D /* ArticleTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleTableViewController.swift; sourceTree = "<group>"; };
 		8BB1BDD61AE02F67001D713D /* ArticleController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleController.swift; sourceTree = "<group>"; };
@@ -116,7 +114,6 @@
 		8BB74EBE1AD2E7560059C13D /* MagicPowa */ = {
 			isa = PBXGroup;
 			children = (
-				8BAD5ECB1AE44D4C0014B7B9 /* background.jpg */,
 				8BB74EC11AD2E7560059C13D /* AppDelegate.swift */,
 				8BB74EC31AD2E7560059C13D /* ViewController.swift */,
 				8BB74EC81AD2E7560059C13D /* Images.xcassets */,
@@ -235,7 +232,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8BB74EC71AD2E7560059C13D /* Main.storyboard in Resources */,
-				8BAD5ECC1AE44D4C0014B7B9 /* background.jpg in Resources */,
 				8BB74ECC1AD2E7560059C13D /* LaunchScreen.xib in Resources */,
 				8BB74EC91AD2E7560059C13D /* Images.xcassets in Resources */,
 			);

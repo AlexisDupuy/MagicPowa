@@ -25,7 +25,7 @@ class ArticleController: UIViewController {
         content.lineBreakMode = NSLineBreakMode.ByWordWrapping
         content.numberOfLines = 0
         title = article
-        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "background.jpg")!)
+        //self.view.backgroundColor = UIColor(patternImage: UIImage(named: "background.jpg")!)
     }
     
     @IBAction func back(sender: AnyObject) {
