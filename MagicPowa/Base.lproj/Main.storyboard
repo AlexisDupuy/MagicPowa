@@ -42,7 +42,7 @@
             </objects>
             <point key="canvasLocation" x="104" y="82"/>
         </scene>
-        <!--Article Controller-->
+        <!--Title-->
         <scene sceneID="PB8-9F-Zbm">
             <objects>
                 <viewController id="me5-kC-3OE" customClass="ArticleController" customModule="MagicPowa" customModuleProvider="target" sceneMemberID="viewController">
@@ -54,27 +54,30 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gnW-oB-PjX">
-                                <rect key="frame" x="64" y="154" width="483" height="238"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gnW-oB-PjX">
+                                <rect key="frame" x="23" y="289" width="555" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nf8-52-6S5">
-                                <rect key="frame" x="260" y="64" width="89" height="39"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="33"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="gnW-oB-PjX" secondAttribute="centerX" id="7zk-LA-y3G"/>
+                            <constraint firstAttribute="centerY" secondItem="gnW-oB-PjX" secondAttribute="centerY" id="Pc7-Fq-l84"/>
+                            <constraint firstAttribute="width" secondItem="gnW-oB-PjX" secondAttribute="width" constant="45" id="jqh-ql-KtD"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" title="Title" id="4K6-nr-iLC"/>
+                    <connections>
+                        <outlet property="content" destination="gnW-oB-PjX" id="lYQ-Qg-Onq"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JAL-lv-GGK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="104" y="1500"/>
+            <point key="canvasLocation" x="1499" y="82"/>
         </scene>
-        <!--Article Table View Controller-->
+        <!--Title-->
         <scene sceneID="VfJ-q7-zBd">
             <objects>
                 <tableViewController id="TG3-of-FwP" customClass="ArticleTableViewController" customModule="MagicPowa" customModuleProvider="target" sceneMemberID="viewController">
@@ -97,7 +100,7 @@
                                     </subviews>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="me5-kC-3OE" kind="showDetail" identifier="ArticleShow" id="ygc-E1-ZMY"/>
+                                    <segue destination="me5-kC-3OE" kind="show" identifier="ArticleShow" id="ygc-E1-ZMY"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -106,10 +109,11 @@
                             <outlet property="delegate" destination="TG3-of-FwP" id="lCx-ow-pU3"/>
                         </connections>
                     </tableView>
+                    <navigationItem key="navigationItem" title="Title" id="BeR-MR-0HP"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tas-8M-abr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="104" y="766"/>
+            <point key="canvasLocation" x="782" y="82"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="XD8-mq-1BB">

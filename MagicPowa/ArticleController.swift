@@ -14,12 +14,21 @@ class ArticleController: UIViewController {
     
     var article: String!
     
+    @IBOutlet weak var content: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        var articleObject = dataManager.unArticle(article)
         // Do any additional setup after loading the view.
+        content.text = articleObject.contenu
+        content.lineBreakMode = NSLineBreakMode.ByWordWrapping
+        content.numberOfLines = 0
+        title = article
     }
-
+    
+    @IBAction func back(sender: AnyObject) {
+        dismissViewControllerAnimated(true, completion: nil)
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -31,8 +40,10 @@ class ArticleController: UIViewController {
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+        var nextVC = segue.destinationViewController as ArticleTableViewController
+        nextVC.dataManager = self.dataManager
+        var articleObject = dataManager.unArticle(article)
+        nextVC.category = articleObject.category
     }
 
 

@@ -43,4 +43,12 @@ class ObjetManager {
         }
         return articles
     }
+    func unArticle(name : String) -> Objet {
+        for Objet in objetArray{
+            if (Objet.name == name){
+                return Objet
+            }
+        }
+        return Objet(name: "Error", category: "Error", type: "Error", contenu: "Article does not exists", titre: "Error")
+    }
 }
