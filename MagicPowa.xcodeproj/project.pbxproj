@@ -16,6 +16,8 @@
 		8BB74EC91AD2E7560059C13D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BB74EC81AD2E7560059C13D /* Images.xcassets */; };
 		8BB74ECC1AD2E7560059C13D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BB74ECA1AD2E7560059C13D /* LaunchScreen.xib */; };
 		8BB74ED81AD2E7560059C13D /* MagicPowaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB74ED71AD2E7560059C13D /* MagicPowaTests.swift */; };
+		8BD56FB71AE29F4A00DAF4F8 /* Objet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD56FB61AE29F4A00DAF4F8 /* Objet.swift */; };
+		8BD56FB91AE29FD200DAF4F8 /* ObjetManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD56FB81AE29FD200DAF4F8 /* ObjetManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +44,8 @@
 		8BB74ED11AD2E7560059C13D /* MagicPowaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagicPowaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BB74ED61AD2E7560059C13D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8BB74ED71AD2E7560059C13D /* MagicPowaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicPowaTests.swift; sourceTree = "<group>"; };
+		8BD56FB61AE29F4A00DAF4F8 /* Objet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Objet.swift; sourceTree = "<group>"; };
+		8BD56FB81AE29FD200DAF4F8 /* ObjetManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObjetManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,8 @@
 		8BB19B091AE16B8E00F222A6 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				8BD56FB61AE29F4A00DAF4F8 /* Objet.swift */,
+				8BD56FB81AE29FD200DAF4F8 /* ObjetManager.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -247,6 +253,8 @@
 			files = (
 				8BB0EAA01AE2760400DD2A1D /* ArticleTableViewController.swift in Sources */,
 				8BB74EC41AD2E7560059C13D /* ViewController.swift in Sources */,
+				8BD56FB91AE29FD200DAF4F8 /* ObjetManager.swift in Sources */,
+				8BD56FB71AE29F4A00DAF4F8 /* Objet.swift in Sources */,
 				8BB1BDD71AE02F67001D713D /* ArticleController.swift in Sources */,
 				8BB74EC21AD2E7560059C13D /* AppDelegate.swift in Sources */,
 				8BB0EA9E1AE275E600DD2A1D /* CategoryTableViewController.swift in Sources */,
