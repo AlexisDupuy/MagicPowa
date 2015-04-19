@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>7D65DC7A-AFD2-40DD-ABC6-B03375DA9AF5</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MagicPowa</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>BF95B117696ECC022C6C46A0364A6E8B393CDB67</key>
+		<string>https://github.com/Chaoskira/MagicPowa.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>MagicPowa.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>BF95B117696ECC022C6C46A0364A6E8B393CDB67</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Chaoskira/MagicPowa.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>BF95B117696ECC022C6C46A0364A6E8B393CDB67</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>BF95B117696ECC022C6C46A0364A6E8B393CDB67</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MagicPowa</string>
+		</dict>
+	</array>
+</dict>
+</plist>
