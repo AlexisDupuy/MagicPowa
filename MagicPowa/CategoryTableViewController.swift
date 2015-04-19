@@ -32,14 +32,14 @@ class CategoryTableViewController: UITableViewController {
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete method implementation.
         // Return the number of rows in the section.
-        return data.categories().count
+        return data.allCzategories().count
     }
 
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("categoryCell", forIndexPath: indexPath) as UITableViewCell
         
-            let categories: [Objet] = data.categories()
+            let categories: [Objet] = data.allCategories()
         
             let category = categories[indexPath.row]
         
@@ -55,6 +55,8 @@ class CategoryTableViewController: UITableViewController {
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         // Get the new view controller using [segue destinationViewController].
         // Pass the selected object to the new view controller.
+        var nextVC = segue.destinationViewController as ArticleTableViewController
+        
     }
 
 

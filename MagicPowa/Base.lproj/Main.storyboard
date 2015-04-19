@@ -27,7 +27,7 @@
                                     </subviews>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="TG3-of-FwP" kind="show" id="neh-qT-SY2"/>
+                                    <segue destination="TG3-of-FwP" kind="show" identifier="categoriesToRules" id="neh-qT-SY2"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
